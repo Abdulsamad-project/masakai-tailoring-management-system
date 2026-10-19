@@ -1,0 +1,29 @@
+MASAKAI v4 — Tailor Role Fix
+================================
+
+This package is based on the uploaded masakai_v3_1.zip and includes the latest
+Tailor-role and role-login fixes.
+
+Main changes:
+- Separate Admin, Tailor, Receptionist (and preserved Customer) login portals.
+- Server-side portal/role matching.
+- Tailor-only dashboard and navigation.
+- Tailor can view assigned orders and update work status from My Tasks.
+- Tailor can view/edit measurements only for customers attached to assigned orders.
+- Tailor cannot access general client management, stock, types, payments, reports,
+  users, or order creation.
+- Restricted pages remain protected server-side with the existing permission system.
+- View actions use an eye icon; edit actions use a pencil icon.
+- Tailor work history is scoped to the tailor's assigned orders.
+- Added self-service Profile page.
+- Added local tailoring-themed workspace artwork so the login/workspace pages
+  still look appropriate without internet access.
+
+PHP syntax was checked with PHP 8.4 and the project PHP files report no syntax errors.
+
+XAMPP demo:
+1. Extract this ZIP.
+2. Put the extracted `masakai` folder in `C:\xampp\htdocs\`.
+3. Start Apache and MySQL in XAMPP.
+4. Open http://localhost/masakai/
+5. Choose the appropriate workspace.
