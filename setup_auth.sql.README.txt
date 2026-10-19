@@ -1,0 +1,2 @@
+setup_auth.sql still creates the default admin (Masakai@gmail.com / Masakai@2026).
+Run sql/upgrade_v2.sql afterwards to add roles and the new v2 modules.
